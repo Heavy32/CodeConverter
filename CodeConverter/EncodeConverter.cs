@@ -9,7 +9,6 @@ namespace CodeConverter
 
         public EncodeConverter(string inputEncode, string outputEncode)
         {
-            Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
             InputEncode = inputEncode;
             OutputEncode = outputEncode;
         }
